@@ -3,11 +3,69 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FE Template</title>
-    <link rel="stylesheet" href="style.scss">
+    <title>TT Layout</title>
+    <link rel="stylesheet" href="./styles/main.scss">
     <script defer src="main.js"></script>
   </head>
   <body>
-    <h1>FE Template</h1>
+    <header class="header">
+      <div class="header__logo"></div>
+      <nav class="nav header__nav">
+        <ul class="nav__list">
+          <li class="nav__item nav__item_active"><a href="#" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#info" class="nav__link">service</a></li>
+          <li class="nav__item"><a href="#gallery" class="nav__link">About Us</a></li>
+          <li class="nav__item"><a href="#consultation" class="nav__link">pricing table</a></li>
+          <li class="nav__item"><a href="#testemonials" class="nav__link">how it work</a></li>
+          <li class="nav__item"><a href="#contacts" class="nav__link">happy clients</a></li>
+          <li class="nav__item"><a href="#contacts" class="nav__link">contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="section section--contacts">
+        <div class="contacts">
+          <h1>boost up your local business</h1>
+          <h3>
+            Boost up your Local business
+            Lorem Ipsum is simply dummy text
+            of the printing and typesetting industry.
+            Lorem Ipsum typesetting
+          </h3>
+          <form class="form">
+            <label for="name" class="form__item">
+              <input type="text"
+                name="name"
+                placeholder="Full Name"
+                class="input form__input"
+                id="name"
+                required
+              >
+            </label>
+
+            <label for="email" class="form__item">
+              <input type="text"
+                name="email"
+                placeholder="Email Address"
+                class="input form__input"
+                id="email"
+                required
+              >
+            </label>
+
+            <label for="phone" class="form__item">
+              <input type="text"
+                name="phone"
+                placeholder="Phone Number"
+                class="input form__input"
+                id="phone"
+                required
+              >
+            </label>
+            <button ></button>
+          </form>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

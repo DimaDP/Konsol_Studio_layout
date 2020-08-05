@@ -1,0 +1,31 @@
+.nav {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nav__list {
+  margin-top: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__item {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 5px;
+  border-radius: 8px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  white-space: nowrap;
+}
+
+.nav__link {
+  display: block;
+  color: #868686;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  // color: #9e9e9e;
+}
