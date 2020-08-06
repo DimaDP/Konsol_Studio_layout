@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Open+Sans&display=swap");
+@import "reset";
+@import "header";
+@import "nav";
+@import "section";
+@import "contacts";
+@import "form";
+@import "steps";
+@import "slider";
+@import "mobile__menu";
+@font-face {
+  font-family: "Gotham Black";
+  src: url(../fonts/GothamBlackRegular.ttf);
+  font-weight: 500;
+}
+
+html {
+  scroll-behavior: smooth;
+}

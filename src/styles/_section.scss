@@ -1,0 +1,15 @@
+.section {
+  padding: 0 calc(50% - 560px);
+  position: relative;
+  background-color: #fff;
+}
+
+.section--contacts {
+  background-color: #709dca;
+}
+
+@media screen and (max-width: 960px ) {
+  .section {
+    padding: 0 10px;
+  }
+}

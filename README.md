@@ -1,1 +1,1 @@
-[DEMO](https://dimadp.github.io/fe-template/)
+[DEMO](https://dimadp.github.io/Konsol_Studio_layout/)
