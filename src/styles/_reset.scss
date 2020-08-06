@@ -29,9 +29,17 @@ dd {
 
 body {
   min-height: 100vh;
-  scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  overflow: hidden;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
 }
 
 a:not([class]) {
@@ -48,8 +56,4 @@ button,
 textarea,
 select {
   font: inherit;
-}
-
-a {
-  text-decoration: none;
 }

@@ -1,0 +1,92 @@
+.form {
+  margin-top: 30px;
+  display: flex;
+
+  &__input {
+    display: block;
+    box-sizing: border-box;
+    width: 280px;
+    height: 46px;
+    outline: none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-left: 40px;
+  
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    border: 2px solid transparent;
+    border-radius: 2px;
+  }
+
+  &__input:focus {
+    border: 2px solid lightblue;
+  }
+
+  &__input::placeholder {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    color: #a9a9a9;
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  &__input--phone {
+    background-image: url("../images/phone_1.png");
+    background-repeat: no-repeat;
+    background-position: 7% 50%;
+  }
+  
+  &__input--email {
+    background-image: url("../images/email.png");
+    background-repeat: no-repeat;
+    background-position: 7% 50%;
+  }
+  
+  &__input--name {
+    background-image: url("../images/person.png");
+    background-repeat: no-repeat;
+    background-position: 7% 50%;
+  }
+
+  &__button {
+    display: block;
+    flex-shrink: 0;
+    width: 211px;
+    height: 46px;
+    background-color: #ffbb42;
+  
+    color: #fff;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+    outline: none;
+    border: none;
+    box-shadow: 0 6px 23px rgba(245, 209, 4, 0.4);
+    border-radius: 2px;
+    transition: filter  0.2s;
+    cursor: pointer;
+  }
+
+  &__button:hover {
+    filter: drop-shadow(10px 0 6px rgba(245, 209, 4, 0.4));
+  }
+  @media screen and (max-width: 960px ) {
+    margin: 10px auto;
+  }
+
+  @media screen and (max-width: 1280px ) {
+    margin: 20px auto;
+    flex-direction: column;
+    width: 280px;
+
+    &__button {
+      width: 280px;
+    }
+  
+    &__input {
+      margin-right: 0;
+    }
+  }
+}

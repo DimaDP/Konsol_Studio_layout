@@ -1,17 +1,21 @@
 .header {
   height: 93px;
-  background-color: #fff;
-  position: sticky;
-  top: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 100px;
-}
+  z-index: 2;
 
-.header__logo {
-  flex-shrink: 0;
-  background-image: url('../images/Shape_8.svg');
-  width: 50px;
-  height: 50px;
+  &__logo {
+    flex-shrink: 0;
+    background-image: url("../images/Shape_8.svg");
+    width: 50px;
+    height: 50px;
+    margin-left: 15%;
+  }
+  
+  @media screen and (max-width: 1280px ) {
+    &__logo {
+      margin-left: 10px;
+    }
+  }
 }
