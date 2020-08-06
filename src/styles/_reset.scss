@@ -1,59 +1,37 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-ul[class],
-ol[class] {
-  padding: 0;
-  list-style: none;
-}
-
+html,
 body,
-h1,
-h2,
-h3,
-h4,
-p,
-ul[class],
-ol[class],
+ul,
 li,
-figure,
-figcaption,
-blockquote,
-dl,
-dd {
+button,
+input,
+textarea {
   margin: 0;
-}
-
-body {
-  min-height: 100vh;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
-  overflow: hidden;
-}
-
-html {
-  overflow-x: hidden;
+  padding: 0;
+  border-width: 0;
+  line-height: inherit;
+  list-style-type: none;
+  resize: none;
 }
 
 a {
   text-decoration: none;
+  font-weight: bold;
 }
 
-a:not([class]) {
-  text-decoration-skip-ink: auto;
+h1, h3 {
+  margin: 0;
+  padding: 0;
 }
 
-img {
+html {
+  width: 100%;
   max-width: 100%;
-  display: block;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
-input,
-button,
-textarea,
-select {
-  font: inherit;
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
